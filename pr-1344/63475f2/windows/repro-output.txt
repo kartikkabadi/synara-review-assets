@@ -1,0 +1,22 @@
+platform: win32
+=== prependPathEntry assertions ===
+r1: {"HOME":"h","Path":"C:\\npm;C:\\Windows;C:\\real"}
+r1 PASS
+r2: {"PATH":"C:\\npm;C:\\short;C:\\Windows"}
+r2 PASS
+r3: {"path":"ignored","PATH":"/opt/bin:/usr/bin"}
+r3 PASS
+cmd: C:\Windows\System32\cmd.exe
+=== real spawn check (cmd /c echo %PATH%) ===
+new(merged Path) -> status=0 signal=null err=none
+new(merged Path) PATH=[C:\npm;C:\Windows;C:\real]
+old(Path+PATH) -> status=0 signal=null err=none
+old(Path+PATH) PATH=[C:\npm]
+spawn assertions PASS (merged env gives full path; duplicated env loses it)
+=== stdin check (cmd /c set /p x=& echo got %x%) ===
+ignore -> 7ms status=0 signal=null out="got %x%"
+pipe   -> 7ms status=0 signal=null err=none out="got %x%"
+async ignore -> exited code=0 at 10ms
+async pipe -> still blocked at 4008ms, killing (hang reproduced)
+SUMMARY: ignore=7ms pipe(spawnSync)=7ms (timedOut=false)
+ALL CHECKS DONE
