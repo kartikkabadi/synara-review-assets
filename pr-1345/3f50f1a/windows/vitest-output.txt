@@ -1,0 +1,10 @@
+$ vitest run --passWithNoTests src/notificationRetention.test.ts
+
+ RUN  v4.1.10 C:/Users/Administrator/repos/synara-verify/apps/desktop
+
+
+ Test Files  1 passed (1)
+      Tests  4 passed (4)
+   Start at  00:01:11
+   Duration  223ms (transform 35ms, setup 0ms, import 49ms, tests 4ms, environment 0ms)
+

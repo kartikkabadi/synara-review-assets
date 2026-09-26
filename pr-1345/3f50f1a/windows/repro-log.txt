@@ -1,0 +1,136 @@
+repro start 2026-09-26T00:15:59.998Z electron=41.4.0 supported=true aumid=undefined
+00:16:00 ready
+00:16:00 show RETAINED
+00:16:00 show UNRETAINED
+00:16:02 gc
+00:16:04 gc
+00:16:06 gc
+00:16:08 gc
+00:16:10 gc
+00:16:12 gc
+00:16:14 gc
+00:16:16 gc
+00:16:18 gc
+00:16:20 gc
+00:16:22 gc
+00:16:24 gc
+00:16:26 gc
+00:16:28 gc
+00:16:30 click RETAINED
+00:16:30 release size=0
+00:16:30 alive retained=0
+00:16:30 gc
+00:16:32 gc
+00:16:34 gc
+00:16:36 gc
+00:16:38 gc
+00:16:40 gc
+00:16:42 gc
+00:16:44 gc
+00:16:45 reshow round 1
+00:16:45 show RETAINED
+00:16:45 show UNRETAINED
+00:16:45 click RETAINED
+00:16:45 release size=0
+00:16:46 gc
+00:16:48 gc
+00:16:50 gc
+00:16:52 gc
+00:16:54 gc
+00:16:56 gc
+00:16:58 gc
+00:17:00 alive retained=0
+00:17:00 gc
+00:17:02 gc
+00:17:04 gc
+00:17:06 gc
+00:17:08 gc
+00:17:10 gc
+00:17:12 gc
+00:17:14 gc
+00:17:16 gc
+00:17:18 gc
+00:17:20 gc
+00:17:22 gc
+00:17:24 gc
+00:17:26 gc
+00:17:28 gc
+00:17:30 reshow round 2
+00:17:30 alive retained=1
+00:17:30 show RETAINED
+00:17:30 show UNRETAINED
+00:17:30 gc
+00:17:32 gc
+00:17:34 gc
+00:17:34 click RETAINED
+00:17:34 release size=0
+00:17:36 gc
+00:17:38 gc
+00:17:40 gc
+00:17:42 gc
+00:17:44 gc
+00:17:46 gc
+00:17:48 gc
+00:17:50 gc
+00:17:52 gc
+00:17:54 gc
+00:17:56 gc
+00:17:58 gc
+00:18:00 alive retained=0
+00:18:00 gc
+00:18:02 gc
+00:18:04 gc
+00:18:06 gc
+00:18:08 gc
+00:18:10 gc
+00:18:12 gc
+00:18:14 gc
+00:18:15 reshow round 3
+00:18:15 show RETAINED
+00:18:15 show UNRETAINED
+00:18:16 gc
+00:18:18 gc
+00:18:20 gc
+00:18:22 gc
+00:18:24 gc
+00:18:26 gc
+00:18:28 gc
+00:18:30 alive retained=1
+00:18:30 gc
+00:18:32 gc
+00:18:34 gc
+00:18:36 gc
+00:18:38 gc
+00:18:40 gc
+00:18:42 gc
+00:18:44 gc
+00:18:46 gc
+00:18:48 gc
+00:18:50 gc
+00:18:52 gc
+00:18:54 gc
+00:18:56 gc
+00:18:58 gc
+00:19:00 alive retained=1
+00:19:00 reshow round 4
+00:19:00 show RETAINED
+00:19:00 show UNRETAINED
+00:19:00 gc
+00:19:02 gc
+00:19:04 gc
+00:19:06 gc
+00:19:08 gc
+00:19:10 gc
+00:19:12 gc
+00:19:14 gc
+00:19:16 gc
+00:19:18 gc
+00:19:20 gc
+00:19:22 gc
+00:19:24 gc
+00:19:26 gc
+00:19:28 gc
+00:19:30 alive retained=2
+00:19:30 gc
+00:19:32 gc
+00:19:34 gc
